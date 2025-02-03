@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    first:
+      jdbcUrl:
+      username:
+      password:
+      driverClassName: com.mysql.cj.jdbc.Driver
+
+    second:
+      jdbcUrl:
+      username:
+      password:
+      driverClassName: org.postgresql.Driver
+
+    third:
+      jdbcUrl:
+      username:
+      password:
+
+  jpa:
+      ddl-generate: auto
+      hibernate:
+        ddl-auto: update
+
